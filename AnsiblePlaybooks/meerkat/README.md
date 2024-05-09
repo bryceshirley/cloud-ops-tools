@@ -10,7 +10,7 @@ Meerkat requires Openstack credentials to create or delete VMs. These can be obt
 
 Meerkat can be run from this directory with the command:
 
-`./run-meerkat.sh -k <KEYPAIR_NAME>`
+`./run_meerkat.sh -k <KEYPAIR_NAME>`
 
 Where:
 - `<KEYPAIR_NAME>` is the name of the Openstack keypair that will be used to by Meerkat to access VMs.
