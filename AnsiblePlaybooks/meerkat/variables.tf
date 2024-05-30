@@ -4,12 +4,12 @@
 
 variable "user"{
     description = "username for file pathing"
-    default = "<user>"
+    default = "dnz75396"
 }
 
 variable "playbook_path" {
     description = "Path to playbook to be run"
-    default = "/home/<user>/cloud-ops-tools/AnsiblePlaybooks/meerkat/meerkat.yaml"
+    default = "/home/dnz75396/cloud-ops-tools/AnsiblePlaybooks/meerkat/meerkat.yaml"
 }
 
 ##############################################################
@@ -30,7 +30,7 @@ variable "image_name" {
 
 variable "keypair_name" {
     description = "The keypair to be used"
-    default  = 
+    default  = "bs_rsa"
 }
 
 variable "network_name" {
@@ -82,5 +82,5 @@ variable "deploy_manila" {
 
 variable "share_size" {
     description = "The size of the manila shares to commission in GB"
-    default = 11
+    default = 1
 }

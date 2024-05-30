@@ -11,17 +11,17 @@
   roles:
     - update_machine
 
-- hosts: storage
-  name: Run storage roles
-  vars_files:
-     - ./vars/storage.yaml
-  roles:
-    - role: setup_openstack
-    - role: update_machine
-    - role: setup_storage_benchmark
-    - role: attach_volume
-    - role: attach_manila
-    - role: run_storage_benchmark
+# - hosts: storage
+#   name: Run storage roles
+#   vars_files:
+#      - ./vars/storage.yaml
+#   roles:
+#     - role: setup_openstack
+#     - role: update_machine
+#     - role: setup_storage_benchmark
+#     - role: attach_volume
+#     - role: attach_manila
+#     - role: run_storage_benchmark
 
 
 - hosts: cpu

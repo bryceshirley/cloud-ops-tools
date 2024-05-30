@@ -7,7 +7,7 @@ terraform {
     }
     ansible = {
       source = "ansible/ansible"
-      version = "~> 1.1.0"
+      # No version constraint specified
     }
   }
 }

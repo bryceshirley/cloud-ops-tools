@@ -27,7 +27,7 @@
 
     - name: Install HEPScore
       ansible.builtin.pip:
-        name: git+https://gitlab.cern.ch/hep-benchmarks/hep-score.git
+        name: git+https://github.com/bryceshirley/HEPScore.git
 
     - name: Make results directory
       ansible.builtin.file:
